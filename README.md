@@ -2,6 +2,8 @@
 
 Arduino outputs the following data to the serial port:
 
+---
+
 ~~~
 === 1. Identifier polling (ID) ===
 CMD 0x04 (RDDID 24-bit): 0xE38166
@@ -30,6 +32,8 @@ CMD 0xDA -> NoDummy: 0xE3000000 | Dummy: 0xC6000000
 CMD 0xDB -> NoDummy: 0x81000000 | Dummy: 0x02000000
 CMD 0xDC -> NoDummy: 0x66000000 | Dummy: 0xCC000000
 ~~~
+
+---
 
 __ID byte decoding: 0x548366__
 
