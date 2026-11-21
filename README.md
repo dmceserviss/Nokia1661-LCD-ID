@@ -1,4 +1,4 @@
-# Checking and reading the ID of Nokia displays that operate via the SPI bus.
+### Checking and reading the ID of Nokia displays that operate via the SPI bus.
 
 Arduino outputs the following data to the serial port:
 
