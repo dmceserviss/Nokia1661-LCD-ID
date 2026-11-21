@@ -31,7 +31,6 @@ CMD 0xDB -> NoDummy: 0x81000000 | Dummy: 0x02000000
 CMD 0xDC -> NoDummy: 0x66000000 | Dummy: 0xCC000000
 ~~~
 
-Example of a controller description by ID:
 __ID byte decoding: 0x548366__
 
 - 0x54 — official manufacturer code for Ilitek.
@@ -47,4 +46,3 @@ SCK | 13
 SDA | 11
 CS |  10
 RST |  9
-
